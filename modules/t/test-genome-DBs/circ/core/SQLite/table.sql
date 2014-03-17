@@ -881,7 +881,7 @@ CREATE TABLE transcript (
   modified_date datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
 );
 
-CREATE UNIQUE INDEX canonical_translation_idx ON transcript (canonical_translation_id);
+-- CREATE UNIQUE INDEX canonical_translation_idx ON transcript (canonical_translation_id);
 
 --
 -- Table: transcript_attrib
